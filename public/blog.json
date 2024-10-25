@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "cover_img": "https://picsum.photos/400/200?random=1",
+        "name": "John Doe",
+        "release_date": "2023-07-12",
+        "title": "Mastering JavaScript Basics",
+        "read_time": 5,
+        "hashtags": [
+            "#JavaScript",
+            "#Coding"
+        ],
+        "author_img": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+        "id": 2,
+        "cover_img": "https://picsum.photos/400/200?random=2",
+        "name": "Jane Smith",
+        "release_date": "2023-08-22",
+        "title": "Introduction to Web Development",
+        "read_time": 7,
+        "hashtags": [
+            "#WebDevelopment",
+            "#HTML"
+        ],
+        "author_img": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+        "id": 3,
+        "cover_img": "https://picsum.photos/400/200?random=3",
+        "name": "Alice Brown",
+        "release_date": "2023-09-15",
+        "title": "A Guide to CSS Flexbox",
+        "read_time": 6,
+        "hashtags": [
+            "#CSS",
+            "#Flexbox"
+        ],
+        "author_img": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+        "id": 4,
+        "cover_img": "https://picsum.photos/400/200?random=4",
+        "name": "Bob Martin",
+        "release_date": "2023-10-03",
+        "title": "Understanding JavaScript Async/Await",
+        "read_time": 8,
+        "hashtags": [
+            "#JavaScript",
+            "#Async"
+        ],
+        "author_img": "https://i.pravatar.cc/150?img=4"
+    }
+]
