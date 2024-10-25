@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { BsBookmarks } from "react-icons/bs";
 
-const Blog = ({ blog,handlerBookmark }) => {
+const Blog = ({ blog,handlerBookmark,handleReadTime }) => {
     // console.log(blog);
     const { cover_img, author_img, name, release_date, read_time, title, hashtags } = blog;
 
@@ -28,12 +28,13 @@ const Blog = ({ blog,handlerBookmark }) => {
                     hashtags.map((hash,idx) => <span key={idx}><a href="">{hash}</a></span>)
                 }
             </p>
+            <button className='font-semibold text-[#6047EC] underline' onClick={()=>handleReadTime(read_time)}>Mark as read</button>
         </div>
     );
 };
 
-Blog.propTypes = {
-    optionalObject: PropTypes.object
-}
+// Blog.propTypes = {
+//     optionalObject: PropTypes.object
+// }
 
 export default Blog;
